@@ -8,7 +8,9 @@ The Doomed Marker Puzzle consist of makers on a 16 by 16 grid. Initially there i
 Doomed Marker Puzzle was written almost entirely by Claude Code based on iterative feedback from me.
 
 ## Credit
-I've read about a puzzle like this decades ago, possible in a book by James Fixx, but I can't find it. I asked ChatGPT 4o about it and it said it was the "Doomed Maker Puzzle". However, I can't find that anywhere which suggests it's a hallucination, but I like it, so that's what I named this puzzle. Fee free to email me if you know how I can properly credit it.
+I've read about a puzzle like this decades ago, possible in a book by James Fixx, but I can't find it. I asked ChatGPT 4o about it and it said it was the "Doomed Maker Puzzle". However, I can't find that anywhere which suggests it's a hallucination, but I like it, so that's what I named this puzzle. Please email me if you know how I can properly credit it.
+
+Doomed Marker Puzzle does have some similarity to [Conway's Soldiers](https://en.wikipedia.org/wiki/Conway%27s_Soldiers), but to see the similarity it helps to invert Doomed Maker Puzzle both physically, and in time. Imagine the lower left corner of the board at the top, and the initial position with markers at the level three diagonal and below. The goal is now to combine markers two at a time to form a single marker that's closer to the top (analogous to the final fifth row final "target square" using Conway's Soldiers terminology). Due to the exponentially changing nature of the maker values, discussed in the next section, even an infinite number of markers is not enough.
 
 ## Math
 When a marker is split each new marker can be considered to have half the value of the original marker. In this sense the value of a marker is

@@ -1,3 +1,6 @@
+// This file is part of Doomed Marker Puzzle. It was written almost entirely by
+// Claude Code.
+
 document.addEventListener('DOMContentLoaded', () => {
     const gridSize = 16;
     const grid = document.getElementById('grid');
